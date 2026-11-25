@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IRON ELITE | Premium Fitness Club</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Outfit',sans-serif;background:#090909;color:#fff}
+header{height:75px;padding:0 8%;display:flex;align-items:center;justify-content:space-between;background:#111;position:sticky;top:0;z-index:10;border-bottom:1px solid #292929}
+.logo{font-size:24px;font-weight:800;color:#e8bd62}
+nav a{color:#fff;text-decoration:none;margin-left:22px;font-size:14px}
+nav a:hover{color:#e8bd62}
+.hero{min-height:590px;display:flex;align-items:center;padding:70px 9%;background:linear-gradient(90deg,#080808 15%,rgba(0,0,0,.78)),url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1600') center/cover}
+.hero-content{max-width:650px}
+.tag{color:#e8bd62;letter-spacing:4px;font-size:13px;font-weight:700}
+h1{font-size:clamp(44px,7vw,76px);line-height:1.05;margin:20px 0}
+h1 span{color:#e8bd62}
+.hero p{color:#bbb;line-height:1.8;max-width:480px}
+.btn{display:inline-block;margin-top:28px;background:#e8bd62;color:#111;padding:15px 28px;text-decoration:none;font-weight:700;border-radius:4px}
+section{padding:85px 9%}
+.section-title{text-align:center;font-size:36px;margin-bottom:40px}
+.section-title span{color:#e8bd62}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:#151515;border:1px solid #292929;padding:28px;border-radius:8px}
+.card h3{color:#e8bd62;margin-bottom:12px}
+.card p{color:#aaa;line-height:1.7;font-size:14px}
+.about{background:#111}
+.about p{max-width:750px;margin:auto;text-align:center;color:#bbb;line-height:1.9}
+.price{text-align:center}
+.price h3{font-size:25px;margin:12px 0;color:#e8bd62}
+.price strong{font-size:32px}
+.price p{margin:12px 0;color:#aaa}
+.contact{text-align:center;background:#151515}
+.contact p{color:#bbb}
+footer{text-align:center;padding:25px;color:#888;background:#080808;font-size:13px}
+@media(max-width:600px){
+header{padding:0 5%}
+.logo{font-size:19px}
+nav a{margin-left:10px;font-size:12px}
+.hero{min-height:520px;padding:55px 7%}
+section{padding:65px 7%}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">IRON ELITE.</div>
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+  <a href="#reviews">Reviews</a>
+<a href="#plans">Plans</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<div class="hero" id="home">
+<div class="hero-content">
+<div class="tag">WELCOME TO IRON ELITE</div>
+<h1>BUILD YOUR <span>STRONGER</span> SELF.</h1>
+<p>Train with purpose. Build strength. Improve your fitness with professional guidance and a supportive gym community.</p>
+<a href="#plans" class="btn">EXPLORE MEMBERSHIPS</a>
+</div>
+</div>
+
+<section id="services">
+<h2 class="section-title">OUR <span>SERVICES</span></h2>
+<div class="cards">
+<div class="card">
+<h3>Strength Training</h3>
+<p>Structured strength training sessions with professional guidance.</p>
+</div>
+<div class="card">
+<h3>Personal Training</h3>
+<p>Personalised fitness guidance to help you work towards your goals.</p>
+</div>
+<div class="card">
+<h3>Cardio Fitness</h3>
+<p>Improve endurance and fitness with dedicated cardio sessions.</p>
+</div>
+</div>
+</section>
+
+<section class="about">
+<h2 class="section-title">ABOUT <span>US</span></h2>
+<p>IRON ELITE is a modern fitness club focused on strength, discipline and healthy living. Our goal is to provide a welcoming training environment for every fitness level.</p>
+</section>
+
+<section id="plans">
+<h2 class="section-title">MEMBERSHIP <span>PLANS</span></h2>
+<div class="cards">
+<div class="card price">
+<h3>Basic</h3>
+<strong>Rs. 3,000</strong>
+<p>Monthly membership</p>
+</div>
+<div class="card price">
+<h3>Premium</h3>
+<strong>Rs. 5,000</strong>
+<p>Monthly membership</p>
+</div>
+<div class="card price">
+<h3>Personal</h3>
+<strong>Rs. 8,000</strong>
+<p>Monthly training package</p>
+</div>
+</div>
+</section>
+
+
+<section id="reviews" style="padding:80px 8%;background:#111;color:white;text-align:center;">
+  <h2 style="color:#e8bd62;font-size:32px;">MEMBER REVIEWS</h2>
+  <p style="color:#aaa;">What people say about IRON ELITE</p>
+
+  <div style="display:flex;flex-wrap:wrap;gap:20px;justify-content:center;margin-top:35px;">
+    <div style="background:#1c1c1c;padding:25px;border:1px solid #e8bd62;border-radius:12px;max-width:280px;">
+      <h3>★★★★★</h3>
+      <p>"Great equipment and a welcoming environment."</p>
+      <strong>Demo Review 1</strong>
+    </div>
+
+    <div style="background:#1c1c1c;padding:25px;border:1px solid #e8bd62;border-radius:12px;max-width:280px;">
+      <h3>★★★★★</h3>
+      <p>"The training space is clean and well designed."</p>
+      <strong>Demo Review 2</strong>
+    </div>
+
+    <div style="background:#1c1c1c;padding:25px;border:1px solid #e8bd62;border-radius:12px;max-width:280px;">
+      <h3>★★★★★</h3>
+      <p>"A great concept for a modern fitness club."</p>
+      <strong>Demo Review 3</strong>
+    </div>
+  </div>
+  <p style="color:#888;font-size:12px;margin-top:20px;">Sample reviews for demonstration only.</p>
+</section>
+
+
+
+
+  
+<section class="contact" id="contact">
+<h2 class="section-title">START YOUR <span>JOURNEY</span></h2>
+<p>Interested in joining IRON ELITE? Contact us to learn more.</p>
+<a class="btn" href="https://wa.me/920000000000">CONTACT US</a>
+</section>
+
+<footer>
+© 2026 IRON ELITE FITNESS CLUB. DEMO WEBSITE BY CRAFTIVE DIGITAL.
+</footer>
+
+</body>
+</html>
